@@ -1,0 +1,23 @@
+img{
+    width: 150px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+    margin: 0 10px;
+}
+
+a:hover{
+    color: aqua;
+}
+
+.navbar{
+    background-color: rgba(255, 255, 255, 0.096);
+    padding: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.229);
+    display: flex;
+    align-items: center;
+}
