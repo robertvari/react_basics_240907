@@ -21,3 +21,8 @@ a:hover{
     display: flex;
     align-items: center;
 }
+
+.active-page{
+    color: aqua;
+    text-decoration: underline;
+}
