@@ -1,0 +1,37 @@
+.contact form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact form input, textarea{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font: inherit;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.107);
+    margin-bottom: 30px;
+    font-size: 23px;
+    font-weight: 300;
+}
+
+.contact form textarea{
+    resize: vertical;
+    min-height: 200px;
+}
+
+.contact form button{
+    cursor: pointer;
+    font: inherit;
+    font-weight: 100;
+    font-size: 30px;
+    border: none;
+    background-color: #61d9fa;
+    padding: 10px;
+    align-self: flex-end;
+    border-radius: 10px;
+}
+
+.contact form button:hover{
+    background-color: #36a1be;
+}
