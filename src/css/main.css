@@ -1,4 +1,5 @@
 @import "Navbar.css";
+@import "Footer.css";
 
 *{
     padding: 0;
@@ -10,4 +11,11 @@ body{
     background-color: #0d1117;
     color: white;
     font-family: "Roboto";
+}
+
+.App{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
 }
