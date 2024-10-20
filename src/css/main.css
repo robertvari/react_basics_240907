@@ -1,5 +1,8 @@
 @import "Navbar.css";
 @import "Footer.css";
+@import "LandingPage.css";
+@import "Services.css";
+@import "About.css";
 
 *{
     padding: 0;
@@ -18,4 +21,16 @@ body{
     flex-direction: column;
     height: 100vh;
     justify-content: space-between;
+}
+
+.content{
+    margin: 0 200px;
+}
+
+.title{
+    border-left: 10px solid white;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    color: #a3a3a3;
+    font-size: 50px;
 }

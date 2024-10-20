@@ -1,0 +1,14 @@
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+.about img{
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    align-self: center;
+    margin-bottom: 30px;
+}
